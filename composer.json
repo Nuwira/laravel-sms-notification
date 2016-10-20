@@ -1,0 +1,41 @@
+{
+    "name": "nuwira/laravel-sms-notification",
+    "description": "Nuwira SMS Notifications for Laravel",
+    "homepage": "https://github.com/Nuwira/laravel-sms-notification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Zamroni",
+            "email": "zam@nuwira.co.id",
+            "homepage": "https://matriphe.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "nuwira/smsgw": "~2.3",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.6",
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuwira\\LaravelSmsNotification\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nuwira\\LaravelSmsNotification\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
